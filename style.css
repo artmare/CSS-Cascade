@@ -1,0 +1,47 @@
+.text-box h3:first-child{
+    color: pink;
+}
+
+.text-box #greycol{
+    color: grey;
+}
+
+.text-box div>p{
+    color: red;
+}
+
+.text-box p:nth-last-child(2){
+    color: green;
+}
+
+.text-box .yellow{
+    color: yellow;
+}
+
+
+
+
+.days{
+    background-color: white;
+}
+
+.days:first-child:hover{
+    color: white;
+    background-color: black;
+}
+
+.days:nth-last-child(1):hover{
+    color: white;
+    background-color: pink;
+}
+
+.days:nth-child(2n){
+    color:chartreuse;
+}
+
+.days:nth-child(3):hover{
+    background-color: blue;
+}
+.days:nth-child(5):hover{
+    background-color: blue;
+}
